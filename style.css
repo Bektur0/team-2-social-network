@@ -1,0 +1,123 @@
+body {
+  padding: 70px 200px 30px 200px;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  align-items: center;
+  background-color: var(--blue-color);
+}
+.logo {
+  width: 10%;
+  height: 100%;
+  background-color: var(--dark-blue-color);
+  display: flex;
+  align-items: center;
+}
+.logo:hover {
+  background-color: lightgray;
+  color: black;
+}
+.logo a {
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+.menu {
+  width: 15%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.menu ul a {
+  color: white;
+}
+.sections {
+  display: flex;
+  justify-content: space-between;
+}
+.column-1 {
+  width: 25%;
+}
+.column-1 .block-1 .profile {
+  text-align: center;
+}
+.column-1 .block-1 .profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.column-1 .block-1 .profile .info {
+  display: flex;
+  margin-top: 15px;
+}
+.column-1 .block-1 .profile .info i {
+  color: gray;
+  padding-right: 20px;
+}
+.column-1 .block-2 .text-block {
+  padding: 15px 0;
+}
+.column-1 .block-2 .photos {
+  padding: 20px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.column-1 .block-2 .photos img {
+  width: 120px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.column-1 .block-3 p {
+  margin-bottom: 20px;
+}
+
+.column-1 .block-3 .blue {
+  background-color: var(--blue-color);
+  color: white;
+  padding: 4px;
+}
+.column-1 .block-3 .darkblue {
+  background-color: var(--dark-blue-color);
+  color: white;
+  padding: 4px;
+}
+.column-1 .block-4 {
+  position: relative;
+  background-color: lightgray;
+}
+.column-1 .block-4 .close {
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  border-radius: 3px;
+}
+.column-1 .block-4 .close i {
+  font-size: 20px;
+  padding: 0;
+  color: black;
+}
+.column-1 .block-4 .close:hover {
+  background-color: rgb(236, 234, 234);
+}
+
+.column-2 {
+  width: 52%;
+}
+.column-3 {
+  width: 20%;
+}

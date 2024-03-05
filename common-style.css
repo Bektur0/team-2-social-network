@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+:root {
+  --blue-color: #199de5;
+  --dark-blue-color: #0874a6;
+}
+.blue-box {
+  background-color: var(--blue-color);
+  color: white;
+  padding: 10px;
+  display: flex;
+}
+.blue-box:hover {
+  background-color: lightgray;
+  color: black;
+}
+.white-box {
+  padding: 15px;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-weight: 300;
+}
+p {
+  font-size: 15px;
+}
+
+hr {
+  opacity: 0.3;
+}
+i {
+  padding-right: 10px;
+}
